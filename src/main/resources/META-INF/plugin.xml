@@ -5,7 +5,7 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>LaraGPT - ChatGPT For Laravel</name>
+    <name>LaraAssist - AI Assistant for Laravel</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="plugin@trickbd.com" url="https://www.trickbd.com">Trickbd</vendor>
@@ -14,7 +14,7 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    LaraGPT For Laravel is a powerful IntelliJ plugin that helps Laravel developers to write code faster and with less effort using ChatGPT API. With this plugin, you can generate test cases for your Laravel code base and explain specific code in human-readable format using OpenAI's Codex API (ChatGPT API). Save time and write better code with LaraGPT - ChatGPT For Laravel.
+    LaraAssist for Laravel is a powerful IntelliJ plugin that helps Laravel developers to write code faster and with less effort using AI. With this plugin, you can generate test cases for your Laravel code base and explain specific code in human-readable format using OpenAI's API. Save time and write better code with LaraAssist - AI Assistant for Laravel.
   ]]></description>
 
     <change-notes><![CDATA[
@@ -43,7 +43,7 @@
 
     </extensions>
     <actions>
-        <group id="Laragpt-Testcase-ToolsMenu" text="LaraGPT - AI Actions" popup="true">
+        <group id="Laragpt-Testcase-ToolsMenu" text="LaraAssist - AI Actions" popup="true">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
             <action id="GenerateTestCaseActionToolsMenu" class="com.trickbd.codegpt.action.GenerateTestCaseAction"
                     text="Generate Test Case"
@@ -58,7 +58,7 @@
                     text="Manage API Key"
                     icon="AllIcons.Nodes.KeymapEditor"/>
         </group>
-        <group id="Laragpt-Testcase-EditorPopupMenu" text="LaraGPT - AI Actions" popup="true">
+        <group id="Laragpt-Testcase-EditorPopupMenu" text="LaraAssist - AI Actions" popup="true">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
             <action id="GenerateTestCaseAction" class="com.trickbd.codegpt.action.GenerateTestCaseAction"
                     text="Generate Test Case"
